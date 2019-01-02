@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulario Completo -> Sergio González Díaz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="completo.css"/>
+        <script type="text/javascript" src="completo.js"></script>
+    </head>
+    <body>
+        <header>
+            <img class="esconderDiv"/>
+            <h1 class="mostrarDiv">REGISTRO</h1>
+        </header>
+        
+        <section class="mostrarDiv">
+            <label>Nombre: </label><input type="text" size="15" maxlength="15"/><br><br>
+            <label>Apellidos: </label><input type="text" size="15" maxlength="15"/><br><br>
+            <label>Fecha Nacimiento: </label><input type="date"/><br><br>
+            <label>Ciudad: </label><input type="text" size="10" maxlength="10"/><br><br>
+            <label>Teléfono: </label><input type="tel" size="9" maxlength="9"/><br><br>
+            <input type="button" value="Reset" id="reset"/>
+            <input type="button" value="Comprobar datos" id="comprobar"/>
+            <input type="submit" value="Enviar" id="enviar"/>
+        </section>
+        
+        <section class="esconderDiv">
+            <label class="mostrar">Nombre: </label><br><br>
+            <label class="mostrar">Apellidos: </label><br><br>
+            <label class="mostrar">Edad: </label>
+        </section>
+    </body>
+</html>

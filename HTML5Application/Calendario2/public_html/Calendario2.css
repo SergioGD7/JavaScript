@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-dic-2018, 18:56:46
+    Author     : Sergio
+*/
+@import url('https://fonts.googleapis.com/css?family=Unlock');
+
+#divTotal{
+    width: 867px;
+    height: 24px;
+    border: 3px solid black;
+    text-align: right;
+}
+
+#textoAño{
+    font-family: 'Unlock', cursive;
+    color: blue;
+    float: left;
+}
+
+.cuadrado{
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    float: left;
+    border: 1px solid black;
+    margin: 1px 1px 1px 1px;
+}
+
+.diaActual{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    float: left;
+    border: 1px solid black;
+    margin: 1px 1px 1px 1px;
+}
+
